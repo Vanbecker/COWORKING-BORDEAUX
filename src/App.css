@@ -2,3 +2,97 @@
   list-style-type: none;
   text-decoration: none;
 }
+
+.App {
+  text-align: center;
+}
+
+.head {
+  background-color: #f8f8f8;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.head img {
+  height: 80px;
+}
+
+.head nav ul {
+  list-style-type: none;
+  display: flex;
+  gap: 20px;
+}
+
+.head nav ul li a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+}
+
+.Mains {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 20px;
+  padding: 20px;
+}
+
+.foot {
+  background-color: #f8f8f8;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.foot img {
+  height: 80px;
+}
+
+.foot p {
+  margin-left: 10px;
+  font-size: 14px;
+  color: #333;
+}
+
+.Coworkingglobal {
+  flex: 0 0 300px;
+  background-color: #fff;
+  border-radius: 5px;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.Coworkingglobal h2 {
+  font-size: 20px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.Coworkingglobal p {
+  font-size: 14px;
+  color: #666;
+  margin-bottom: 5px;
+}
+
+.Coworkingglobal img {
+  width: 100%;
+  max-height: 200px;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+.Coworkingglobal .rating {
+  display: flex;
+  align-items: center;
+}
+
+.Coworkingglobal .rating p {
+  margin-left: 5px;
+  font-size: 12px;
+  color: #666;
+}

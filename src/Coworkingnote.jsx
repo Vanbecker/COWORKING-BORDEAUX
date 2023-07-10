@@ -1,4 +1,4 @@
-import Coworkingglobal from "./Coworkingglobal "
+import Coworkingglobal from "./Coworkingglobal"
 const CoworkingNote = ({ coworkings }) => {
     const filteredCoworkings = coworkings.filter(coworking => coworking.rating >= 4);
 
