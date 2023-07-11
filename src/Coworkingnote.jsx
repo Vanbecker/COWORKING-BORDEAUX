@@ -15,17 +15,38 @@
 
 // export default CoworkingNote;
 
-const CoworkingNote = ({ coworkings }) => {
+// const CoworkingNote = ({ coworkings }) => {
+//     const filteredCoworkings = coworkings.filter(coworking => coworking.rating >= 4);
+
+//     return (
+//         <div>
+//             {filteredCoworkings.map((coworkingLoop) => (
+//                 <coworkingLoop coworking={coworkingLoop} key={coworkingLoop.id} />
+//             ))}
+//         </div>
+//     );
+// };
+
+// export default CoworkingNote;
+
+
+////
+
+import React from 'react';
+import Coworkingglobal from './Coworkingglobal';
+
+const Coworkingnote = ({ coworkings }) => {
     const filteredCoworkings = coworkings.filter(coworking => coworking.rating >= 4);
 
     return (
         <div>
             {filteredCoworkings.map((coworkingLoop) => (
-                <coworkingLoop coworking={coworkingLoop} key={coworkingLoop.id} />
+                <Coworkingglobal coworking={coworkingLoop} key={coworkingLoop.id} />
             ))}
         </div>
     );
 };
 
-export default CoworkingNote;
+export default Coworkingnote;
+
 
